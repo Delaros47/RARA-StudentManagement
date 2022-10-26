@@ -36,13 +36,13 @@
             this.btnUpdate = new DevExpress.XtraBars.BarButtonItem();
             this.btnDelete = new DevExpress.XtraBars.BarButtonItem();
             this.btnExit = new DevExpress.XtraBars.BarButtonItem();
+            this.statusBarDescription = new DevExpress.XtraBars.BarStaticItem();
+            this.statusBarShortcut = new DevExpress.XtraBars.BarStaticItem();
+            this.statusBarShortcutDescription = new DevExpress.XtraBars.BarStaticItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.defaultLookAndFeel = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
-            this.statusBarDescription = new DevExpress.XtraBars.BarStaticItem();
-            this.statusBarShortcut = new DevExpress.XtraBars.BarStaticItem();
-            this.statusBarShortcutDescription = new DevExpress.XtraBars.BarStaticItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
             this.SuspendLayout();
             // 
@@ -125,6 +125,26 @@
             this.btnExit.Name = "btnExit";
             this.btnExit.ShortcutKeyDisplayString = "Esc";
             // 
+            // statusBarDescription
+            // 
+            this.statusBarDescription.Id = 6;
+            this.statusBarDescription.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("statusBarDescription.ImageOptions.Image")));
+            this.statusBarDescription.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("statusBarDescription.ImageOptions.LargeImage")));
+            this.statusBarDescription.Name = "statusBarDescription";
+            this.statusBarDescription.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            // 
+            // statusBarShortcut
+            // 
+            this.statusBarShortcut.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Right;
+            this.statusBarShortcut.Id = 7;
+            this.statusBarShortcut.Name = "statusBarShortcut";
+            // 
+            // statusBarShortcutDescription
+            // 
+            this.statusBarShortcutDescription.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Right;
+            this.statusBarShortcutDescription.Id = 8;
+            this.statusBarShortcutDescription.Name = "statusBarShortcutDescription";
+            // 
             // ribbonPage1
             // 
             this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -147,34 +167,14 @@
             this.ribbonStatusBar.ItemLinks.Add(this.statusBarDescription);
             this.ribbonStatusBar.ItemLinks.Add(this.statusBarShortcut);
             this.ribbonStatusBar.ItemLinks.Add(this.statusBarShortcutDescription);
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 376);
+            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 374);
             this.ribbonStatusBar.Name = "ribbonStatusBar";
             this.ribbonStatusBar.Ribbon = this.ribbon;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(595, 31);
+            this.ribbonStatusBar.Size = new System.Drawing.Size(595, 33);
             // 
             // defaultLookAndFeel
             // 
             this.defaultLookAndFeel.LookAndFeel.SkinName = "DevExpress Style";
-            // 
-            // statusBarDescription
-            // 
-            this.statusBarDescription.Id = 6;
-            this.statusBarDescription.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("statusBarDescription.ImageOptions.Image")));
-            this.statusBarDescription.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("statusBarDescription.ImageOptions.LargeImage")));
-            this.statusBarDescription.Name = "statusBarDescription";
-            this.statusBarDescription.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
-            // 
-            // statusBarShortcut
-            // 
-            this.statusBarShortcut.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Right;
-            this.statusBarShortcut.Id = 7;
-            this.statusBarShortcut.Name = "statusBarShortcut";
-            // 
-            // statusBarShortcutDescription
-            // 
-            this.statusBarShortcutDescription.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Right;
-            this.statusBarShortcutDescription.Id = 8;
-            this.statusBarShortcutDescription.Name = "statusBarShortcutDescription";
             // 
             // BaseEditForm
             // 

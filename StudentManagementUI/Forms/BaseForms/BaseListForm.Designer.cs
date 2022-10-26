@@ -198,10 +198,10 @@
             // 
             // ribbonStatusBar
             // 
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 437);
+            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 435);
             this.ribbonStatusBar.Name = "ribbonStatusBar";
             this.ribbonStatusBar.Ribbon = this.ribbon;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(1302, 31);
+            this.ribbonStatusBar.Size = new System.Drawing.Size(1302, 33);
             // 
             // defaultLookAndFeel
             // 
