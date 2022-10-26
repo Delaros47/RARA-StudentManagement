@@ -54,6 +54,7 @@
             this.ribbon.SearchEditItem.EditWidth = 150;
             this.ribbon.SearchEditItem.Id = -5000;
             this.ribbon.SearchEditItem.ImageOptions.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.True;
+            this.ribbon.Size = new System.Drawing.Size(1302, 102);
             this.ribbon.Toolbar.ShowCustomizeItem = false;
             // 
             // longNavigator1
